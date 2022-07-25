@@ -4,17 +4,25 @@
 
 * Baixe o projeto acesse a pasta via terminal e rode o comando "mvn spring-boot:run" ( É necessário ter o maven instalado )
  
-### endpoints
+### endpoints - User
 
-GET   http://localhost:8080/user   Busca os usuários
+GET  http://localhost:8080/user/{id}  - Busca o usuário por id
 
-POST   http://localhost:8080/user   Cadasta um usuário
+POST http://localhost:8080/user   - Cadasta um usuário
 
-GET   http://localhost:8080/product   Busca os produtos
+### endpoints - Product
 
-POST   http://localhost:8080/product   Cadastra um novo produto
+GET  http://localhost:8080/product - Busca os produtos
+
+GET  http://localhost:8080/product/{code} - Busca um produto por código
+
+POST http://localhost:8080/product  - Cadastra um novo produto
+
+PUT  http://localhost:8080/product/{code} - Edita um produto
 
 SWAGGER http://localhost:8080/index.html
+
+H2 CONSOLE - http://localhost:8080/h2-console/
 
 
 ```json
