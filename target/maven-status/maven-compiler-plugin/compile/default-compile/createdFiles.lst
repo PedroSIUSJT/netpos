@@ -1,0 +1,11 @@
+br\com\netpos\api\configuration\SwaggerConfig.class
+br\com\netpos\domain\User.class
+br\com\netpos\api\ProductRequest.class
+br\com\netpos\NetposServiceApplication.class
+br\com\netpos\gateway\h2\UserRepository.class
+br\com\netpos\api\UpdateProductRequest.class
+br\com\netpos\api\UserRequest.class
+br\com\netpos\domain\Product.class
+br\com\netpos\gateway\h2\ProductRepository.class
+br\com\netpos\api\UserAccountApi.class
+br\com\netpos\api\ProductApi.class
