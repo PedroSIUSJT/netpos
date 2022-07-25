@@ -19,7 +19,9 @@ SWAGGER http://localhost:8080/index.html
 
 ```json
 {
-    "nome": "Seu nome"
+    "name": "Seu nome",
+    "email": "Seu@email.com",
+    "password": "Senha"
 }
 ```
 
